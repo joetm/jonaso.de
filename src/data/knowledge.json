@@ -1,0 +1,27 @@
+[
+    {
+        "title": "JavaScript",
+        "description": "I enjoy the ease of writing JavaScript, the immediate feedback and the fact that it runs in any browser."
+    },
+    {
+        "title": "Responsive Design",
+        "description": "The combination of both technical and creative design aspects in web development fascinates me."
+    },
+    {
+        "title": "PHP",
+        "description": "Zend-certified PHP developer experienced in working on complex object-oriented solutions."
+    },
+    {
+        "title": "Business Analysis",
+        "description": "My training as a Business Analyst gives me the tools &amp; techniques to elicit, record and communicate requirements from and to all stakeholder groups<!--both business and technical people-->."
+    },
+    {
+        "title": "Business",
+        "description": "From writing business plans and product development to raising funds for EU development investments and student projects."
+    },
+    {
+        "title": "Analysis",
+        "comment": "<!--I enjoy bringing structure into unstructured (big) data.-->",
+        "description": "Highly analytical personality with data mining, business intelligence, advanced Excel and KPI monitoring experience."
+    }
+]

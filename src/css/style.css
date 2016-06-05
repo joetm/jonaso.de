@@ -1,0 +1,53 @@
+body{
+	overflow-x:hidden;
+}
+
+.blk{color:#000000}
+
+.normtext{
+	color:#777;
+}
+.fa-stack .fa-laptop:hover:before{
+  content: "\f10b";
+}
+
+.custom-img{
+	max-width:200px;
+	max-height:200px;
+}
+@media (min-width: 768px) {
+	header .intro-text {
+		padding-top:250px;
+	}
+}
+
+.timeline>li .timeline-image h4 {
+	margin-top:6px;
+}
+@media (max-width: 768px) {
+	.timeline>li .timeline-image h4 {
+		margin-top:6px;
+	}
+}
+@media (min-width: 768px) {
+	.timeline>li .timeline-image h4 {
+		margin-top:8px;
+	}
+}
+@media (min-width: 992px) {
+	.timeline>li .timeline-image h4 {
+		margin-top:18px;
+	}
+}
+@media (min-width: 1200px) {
+	.timeline>li .timeline-image h4 {
+		margin-top:28px;
+	}
+}
+
+.clients img{
+	opacity:0.4;
+}
+.clients img:hover{
+	opacity:1;
+}

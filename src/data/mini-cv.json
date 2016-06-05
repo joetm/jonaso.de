@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "1",
+        "dates": "2000-2002",
+        "title": "Military Service",
+        "description": "Ranger in the Light Infantry battalion of the Franco-German Brigade. Acted as translator for the platoon on numerous training exercises in France.",
+        "img": "/static/img/cec-givet.jpg"
+    },
+    {
+        "_id": "2",
+        "dates": "2005-2006",
+        "title": "Linkoping University",
+        "description": "Erasmus Socrates scholarship with courses in Manufacturing Management, Simulations, SQL databases and New Product Development.",
+        "img": "/static/img/linkoping.jpg"
+    },
+    {
+        "_id": "3",
+        "dates": "2009",
+        "title": "Diploma Thesis",
+        "description": "I handed in and successfully defended my diploma thesis (grade A-) in Product Development at the Technical University of Darmstadt.",
+        "img": "/static/res/1.jpg"
+    },
+    {
+        "_id": "4",
+        "dates": "2006 - 2011",
+        "title": "Freelance Web Developer",
+        "description": "I took two years off to improve my programming skills and to work on my own projects.",
+        "img": "/static/img/stairs.jpg"
+    },
+    {
+        "_id": "5",
+        "dates": "2011",
+        "title": "Diplom-Wirtschaftsingenieur",
+        "description": "Graduated with a solid foundation in Management, Product Development, Economics, Business Administration, Finance, Accounting, Logistics &amp; SCM, Mathematics, Machines Dynamics, Thermodynamics and Mechanical Engineering.",
+        "img": "/static/img/welding.jpg"
+    },
+    {
+        "_id": "6",
+        "dates": "2011 - 2012",
+        "title": "Strategy Analyst Trainee",
+        "description": "Responsibilities included the idea management process and intranet application, the migration of the product line intranet to MS SharePoint and supporting the strategic management team.",
+        "img": "/static/img/matterhorn.jpg"
+    },
+    {
+        "_id": "7",
+        "dates": "2013",
+        "title": "Certified Business Analyst",
+        "description": "I learned about the full Business Analysis lifecycle (from requirements elicitation and management to solution assessment and validation). The certificate courses also taught me about leadership and tools and techniques of Business Analysis.",
+        "img": "/static/img/toronto.jpg"
+    },
+    {
+        "_id": "8",
+        "dates": "2013 - 2014",
+        "title": "IT Business Analyst",
+        "description": "My BA knowledge helped me in the development of new services, service requests and SLAs. I was responsible for the maintenance and improvement of the IT service catalogue and I was a beta tester for the corporate IT portal. My responsibilities also included the German translation of all IT service-related communications to the 90,000 end-users.",
+        "img": "/static/img/la-defense.jpg"
+    },
+    {
+        "_id": "9",
+        "dates": "2014 - 2015",
+        "title": "MSc Computer Science",
+        "description": "Courses included web development, web architecture, semantic web technologies, software and project management, and open data innovation. Finished my MSc thesis (\"<a href='http://crowdui.com/' target='_blank'>CrowdUI</a> - a tool to remotely source and evaluate user interface adaptations\") with excellent results.",
+        "img": "/static/res/3.jpg"
+    },
+    {
+        "_id": "10",
+        "dates": "2015 - 2016",
+        "title": "Developer / Data Scientist",
+        "organisation": "Seme4 Ltd.",
+        "description_BAK": "Responsible for the development of the backend infrastructure for the Linked Data SkillsPlanner project. <a href='http://www.skillsplanner.net/' target='blank'>SkillsPlanner</a> is a complex and ambitious project with the aim of alleviating the skills shortage in London's construction industry.",
+        "description": "Responsible for the development of the backend infrastructure for the <a href='http://www.skillsplanner.net/' target='blank'>SkillsPlanner</a> project. Created a well-documented suite of data management and conversion tools that interact with CKAN.",
+        "img": "/static/img/laptop.jpg"
+    },
+    {
+        "_id": "11",
+        "dates": "2016 - today",
+        "title": "Full-Stack Developer",
+        "organisation": "Liip AG",
+        "description": "",
+        "img": "/static/img/ch-bern.jpg"
+    }
+]
