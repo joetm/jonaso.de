@@ -79,11 +79,6 @@ module.exports = {
             }
         ]
     },
-    devtool: '#eval-source-map',
-    devServer: {
-        historyApiFallback: true,
-        noInfo: true
-    },
     // extract css from components into a single css file
     vue: {
         loaders: {
@@ -136,5 +131,11 @@ if (process.env.NODE_ENV === 'production') {
 } else {
 
   module.exports.devtool = '#source-map';
+  //  devtool: '#eval-source-map',
+
+  module.exports.devServer = {
+        historyApiFallback: true,
+        noInfo: true
+  };
 
 }
