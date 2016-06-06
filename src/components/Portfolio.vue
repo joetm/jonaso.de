@@ -48,7 +48,7 @@
                         <div class="modal-body">
                             <h2>Skills Planner</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/img/projects/skillsplanner_full.png" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="" style="background-image:url(./img/projects/thumbnail-bg-100.jpg);background-repeat:no-repeat;background-size:cover">
+		                    <img data-original="/static/img/projects/skillsplanner_full.png" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="" style="background-image:url(/static/img/projects/thumbnail-bg-100.jpg);background-repeat:no-repeat;background-size:cover">
                             <p>
                             	Linked Data Platform with aim of alleviating the skills shortage in the UK's construction industry.
                             	The &#163;1.3 million project is partly funded by Innovate UK.
