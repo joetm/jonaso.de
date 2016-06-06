@@ -44,4 +44,6 @@ var cbpAnimatedHeader = (function() {
 
     init();
 
-})();
+});
+
+module.exports = cbpAnimatedHeader;

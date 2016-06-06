@@ -29,7 +29,13 @@
 </template>
 
 <script>
-require('imports?$=jquery!../js/vendor/cbpAnimatedHeader.js');
+var animateHeader = require('imports?$=jquery!../js/vendor/cbpAnimatedHeader.js');
+
+$(function () {
+
+	animateHeader();
+
+});
 
 export default {
 }
