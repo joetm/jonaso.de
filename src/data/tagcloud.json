@@ -61,6 +61,7 @@
         {"text": "Sphinx", "weight": 5},
         {"text": "SPSS", "weight": 3},
         {"text": "SSH", "weight": 4},
+        {"text": "Swagger/OpenApi", "weight": 1},
         {"text": "Tableau", "weight": 2},
         {"text": "Tabula", "weight": 2},
         {"text": "Twig", "weight": 2},
