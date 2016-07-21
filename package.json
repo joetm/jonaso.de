@@ -8,10 +8,9 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "unused_dependencies": {
-    "babel-runtime": "^6.0.0",
+    "babel-runtime": "^6.9.2",
     "node-sass": "^3.7.0",
     "babel-core": "^6.9.1",
-    "babel-runtime": "^6.9.2",
     "font-awesome-webpack": "0.0.4",
     "less": "^2.7.1",
     "raw-loader": "^0.5.1",
@@ -32,7 +31,6 @@
     "sass-loader": "^3.2.0"
   },
   "devDependencies": {
-    "imports-loader": "^0.6.5",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-runtime": "^6.0.0",
     "babel-preset-es2015": "^6.9.0",
@@ -41,6 +39,8 @@
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.19.0",
+    "imports-loader": "^0.6.5",
     "json-loader": "^0.5.4",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",

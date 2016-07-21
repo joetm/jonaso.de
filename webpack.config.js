@@ -126,9 +126,14 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new webpack.optimize.OccurenceOrderPlugin()
 
+    // create the index.html
+    // new HtmlWebpackPlugin()
+
   ]);
 
 } else {
+
+  // dev env only
 
   module.exports.devtool = '#source-map';
   //  devtool: '#eval-source-map',
