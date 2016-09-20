@@ -58,7 +58,7 @@
     {
         "_id": "9",
         "dates": "2014 - 2015",
-        "title": "MSc Computer Science",
+        "title": "M.Sc. Computer Science",
         "description": "Courses included web development, web architecture, semantic web technologies, software and project management, and open data innovation. Finished my MSc thesis (\"<a href='http://crowdui.com/' target='_blank'>CrowdUI</a> - a tool to remotely source and evaluate user interface adaptations\") with excellent results.",
         "img": "/static/res/3.jpg"
     },
@@ -78,5 +78,13 @@
         "organisation": "Liip AG",
         "description": "Worked on Open Data and CKAN projects for Swiss Federal Railways and Eurapco Alliance in <a href='http://www.bern.com/' target='_blank' >Bern</a>.",
         "img": "/static/img/ch-bern.jpg"
+    },
+    {
+        "_id": "12",
+        "dates": "2016",
+        "title": "Research Associate @ FU Berlin",
+        "organisation": "FU Berlin",
+        "description": "",
+        "img": "/static/img/berlin.jpg"
     }
 ]

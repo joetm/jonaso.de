@@ -3,6 +3,8 @@ var path = require('path'),
     ExtractTextPlugin = require("extract-text-webpack-plugin"),
     vendorPath = path.resolve(__dirname, './src/js/vendor');
 
+// https://github.com/webpack/css-loader/issues/145#issuecomment-150605536
+var Promise = require('es6-promise').polyfill();
 
 module.exports = {
     entry: {

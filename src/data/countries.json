@@ -1,5 +1,6 @@
 [
-    {"city": "Bern", "country": "Switzerland", "lat": 46.9478958, "lng": 7.4476222, "start": "2016-05-01", "end": "today"},
+    {"city": "Berlin", "country": "Germany", "lat": 52.5165594, "lng": 13.4024865},
+    {"city": "Bern", "country": "Switzerland", "lat": 46.9478958, "lng": 7.4476222, "start": "2016-05-01", "end": "2016-07-31"},
     {"city": "Eastleigh", "country": "United Kingdom", "lat": 50.972773, "lng": -1.332390, "start": "2015-10-05", "end": "2016-04-30"},
     {"city": "Southampton", "country": "United Kingdom", "lat": 50.943293, "lng": -1.400997, "start": "2014-09-25", "end": "2015-09-12"},
     {"city": "Paris", "country": "France", "lat": 48.8638149, "lng": 2.3565062, "start": "2013-08-01", "end": "2014-07-31"},

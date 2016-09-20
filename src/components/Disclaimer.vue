@@ -20,7 +20,8 @@ var disclaimers = [
 	{url: 'https://www.flickr.com/photos/aigle_dore/5825408292/', txt: 'Travel', license: 'CC-BY. Moyan Brenn on Flickr.'},
 	{url: 'http://commons.wikimedia.org/wiki/File:GMAW.welding.af.ncs.jpg#/media/File:GMAW.welding.af.ncs.jpg', txt: 'GMAW.welding.af.ncs', license: 'Public Domain. William M. Plate Jr. on Wikipedia.'},
 	{url: 'http://commons.wikimedia.org/wiki/File:Matterhorn_august_2009.JPG#/media/File:Matterhorn_august_2009.JPG', txt: 'Matterhorn august 2009', license: 'Public Domain. Simplon2010 on Wikipedia.'},
-	{url: 'http://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Skyline_bei_Nacht.jpg#/media/File:Toronto_-_ON_-_Skyline_bei_Nacht.jpg', txt: 'Toronto - ON - Skyline bei Nacht', license: 'CC BY-SA 3.0. Wladyslaw on Wikimedia Commons.'}
+  {url: 'http://commons.wikimedia.org/wiki/File:Toronto_-_ON_-_Skyline_bei_Nacht.jpg#/media/File:Toronto_-_ON_-_Skyline_bei_Nacht.jpg', txt: 'Toronto - ON - Skyline bei Nacht', license: 'CC BY-SA 3.0. Wladyslaw on Wikimedia Commons.'},
+  {url: 'https://www.flickr.com/photos/mbiddulph/4133021867/', txt: "That's no moon...", license: 'CC BY-SA 2.0. Matt Biddulph on Flickr.'}
 ];
 
 export default {
