@@ -1,6 +1,6 @@
 # jonaso.de
 
-> Redesign with Vue.js (webpack-simple template)
+> Redesign with Vue.js (based on `webpack-simple` template)
 
 ## Build Setup
 

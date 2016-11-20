@@ -19,6 +19,7 @@
 						<div class="timeline-heading">
 							<h4>{{item.dates}}</h4>
 							<h4 class="subheading">{{item.title}}</h4>
+							<div class="organisation">{{{item.organisation}}}</div>
 						</div>
 						<div class="timeline-body wow {{item.timeline_body_alternation}}">
 							<p class="text-muted">
@@ -61,6 +62,12 @@ export default {
 <style>
 .timeline>li .timeline-image h4 {
 	margin-top:6px;
+}
+.timeline .timeline-heading .subheading {
+	margin-bottom:0;
+}
+.timeline .timeline-heading .organisation {
+	margin-bottom: 10.5px;
 }
 
 @media (max-width: 768px) {

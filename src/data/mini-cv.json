@@ -31,6 +31,7 @@
         "_id": "5",
         "dates": "2011",
         "title": "Diplom-Wirtschaftsingenieur",
+        "organisation": "Technical University Darmstadt",
         "description": "Graduated with a solid foundation in Management, Product Development, Economics, Business Administration, Finance, Accounting, Logistics &amp; SCM, Mathematics, Machines Dynamics, Thermodynamics and Mechanical Engineering.",
         "img": "/static/img/welding.jpg"
     },
@@ -38,6 +39,7 @@
         "_id": "6",
         "dates": "2011 - 2012",
         "title": "Strategy Analyst Trainee",
+        "organisation": "Alstom Switzerland AG",
         "description": "Responsibilities included the idea management process and intranet application, the migration of the product line intranet to MS SharePoint and supporting the strategic management team.",
         "img": "/static/img/matterhorn.jpg"
     },
@@ -45,6 +47,7 @@
         "_id": "7",
         "dates": "2013",
         "title": "Certified Business Analyst",
+        "organisation": "University of Toronto",
         "description": "I learned about the full Business Analysis lifecycle (from requirements elicitation and management to solution assessment and validation). The certificate courses also taught me about leadership and tools and techniques of Business Analysis.",
         "img": "/static/img/toronto.jpg"
     },
@@ -52,6 +55,7 @@
         "_id": "8",
         "dates": "2013 - 2014",
         "title": "IT Business Analyst",
+        "organisation": "Alstom IS&T S.A.S.",
         "description": "My BA knowledge helped me in the development of new services, service requests and SLAs. I was responsible for the maintenance and improvement of the IT service catalogue and I was a beta tester for the corporate IT portal. My responsibilities also included the German translation of all IT service-related communications to the 90,000 end-users.",
         "img": "/static/img/la-defense.jpg"
     },
@@ -59,6 +63,7 @@
         "_id": "9",
         "dates": "2014 - 2015",
         "title": "M.Sc. Computer Science",
+        "organisation": "University of Southampton",
         "description": "Courses included web development, web architecture, semantic web technologies, software and project management, and open data innovation. Finished my MSc thesis (\"<a href='http://crowdui.com/' target='_blank'>CrowdUI</a> - a tool to remotely source and evaluate user interface adaptations\") with excellent results.",
         "img": "/static/res/3.jpg"
     },
@@ -82,8 +87,8 @@
     {
         "_id": "12",
         "dates": "2016",
-        "title": "Research Associate @ FU Berlin",
-        "organisation": "FU Berlin",
+        "title": "Researcher",
+        "organisation": "Freie Universit&auml;t Berlin",
         "description": "",
         "img": "/static/img/berlin.jpg"
     }
