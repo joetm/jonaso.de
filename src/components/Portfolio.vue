@@ -10,7 +10,7 @@
     <div class="row">
 
 		<div v-for="item in portfolioItems" class="col-md-4 col-sm-6 portfolio-item wow flipInY">
-			<a href="#{{ item.id }}" class="portfolio-link" data-toggle="modal" style="background-color:#E0E0E0">
+			<a v-if="item.id" href="#{{ item.id }}" class="portfolio-link" data-toggle="modal" style="background-color:#E0E0E0">
 				<div class="portfolio-hover">
 					<div class="portfolio-hover-content">
 						<i class="fa fa-plus fa-3x"></i>
@@ -18,6 +18,9 @@
 				</div>
 				<img data-original="{{ item.img }}" src="/static/img/clear.gif" class="lazy img-responsive" alt="">
 			</a>
+			<div v-else class="portfolio-link" style="background-color:#E0E0E0">
+				<img data-original="{{ item.img }}" src="/static/img/clear.gif" class="lazy img-responsive" alt="">
+			</div>
 			<div class="portfolio-caption">
 				<h4>{{ item.title }}</h4>
 				<p class="text-muted">{{{ item.subtitle }}}</p>
@@ -33,7 +36,8 @@
   </div><!--container-->
   </section>
 
-	<!-- MODALS (TODO) -->
+
+	<!-- MODALS -->
      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -130,6 +134,7 @@
         </div>
     </div>
     -->
+
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -177,6 +182,7 @@
             </div>
         </div>
     </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -189,21 +195,17 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>BuxomCMS</h2>
+                            <h2>Drive Now Visualization</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/img/projects/buxomcms.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
-                            <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in v. Cu eum dicam feugiat noluisse.</p>
+		                    <img data-original="/static/img/projects/drivenow.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <p>Under the working title "Who called the clean-up crew", I created a visualisation of DriveNow cars in Berlin. The data was scraped from DriveNow. The visualisation shows 1) the location of the cars at a certain time, 2) the car cleanliness states, 3) the movements of single cars during the recorded timeframe, and 4) the movements of cars during which a clean-up event occurred.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com/">Start Bootstrap</a>
-                                    </strong>
-                                </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com/">April 2014</a>
-                                    </strong>
+                                    <strong>November - December 2016</strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com/">Web Development</a>
+                                <li>Technologies:
+                                    <strong>
+                                    D3, Crossfilter, React, Leaflet, Material UI
                                     </strong>
                                 </li>
                             </ul>
@@ -214,6 +216,7 @@
             </div>
         </div>
     </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -264,6 +267,7 @@
             </div>
         </div>
     </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -308,6 +312,7 @@
             </div>
         </div>
     </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -357,12 +362,31 @@ var portfolioItems = [
 		subtitle: 'Linked Data Platform',
 		img: '/static/img/projects/skillsplanner.png'
 	},
+	{
+		id: 'portfolioModal3',
+		title: 'Drive Now Cars',
+		subtitle: 'Visualization',
+		img: '/static/img/projects/drivenow-thumbnail.jpg'
+	},
+	{
+		id: false,
+		title: 'GFBio TerminologyService',
+		subtitle: 'Website Redesign',
+		img: '/static/img/projects/gfbio-ts-thumbnail.jpg'
+	},
+
 	//{
-	//	id: 'xxx',
+	//	id: false,
 	//	title: 'Minimalist SNS',
 	//	subtitle: 'Prototype v1',
 	//	img: '/static/img/projects/minimalism-v1.jpg'
 	//},
+	{
+		id: false,
+		title: 'CKAN extensions',
+		subtitle: 'Open Data',
+		img: '/static/img/projects/ckan-extensions-thumbnail.jpg'
+	},
 	{
 		id: 'portfolioModal2',
 		title: 'Minimalist SNS',
@@ -375,6 +399,7 @@ var portfolioItems = [
 		subtitle: 'Content Management System',
 		img: '/static/img/projects/buxomcms-thumbnail.jpg'
 	},
+
 	{
 		id: 'portfolioModal4',
 		title: 'IT Service Catalogue',
