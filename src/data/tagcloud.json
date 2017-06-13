@@ -2,7 +2,7 @@
         {"text": "Adobe Photoshop", "weight": 4},
         {"text": "Adobe Premiere", "weight": 2},
         {"text": "AJAX", "weight": 5},
-        {"text": "AngularJS", "weight": 5},
+        {"text": "AngularJS", "weight": 4},
         {"text": "Backbone.js", "weight": 7},
         {"text": "BMC Remedy", "weight": 2},
         {"text": "Business Analysis", "weight": 7},
@@ -48,6 +48,7 @@
         {"text": "R", "weight": 1},
         {"text": "RDF(S)", "weight": 4},
         {"text": "RDF Data Cube Vocabulary", "weight": 3},
+        {"text": "React", "weight": 7},
         {"text": "RequireJS", "weight": 5},
         {"text": "Requirements Engineering", "weight": 7},
         {"text": "REST", "weight": 6},
@@ -69,7 +70,7 @@
         {"text": "VBA", "weight": 5},
         {"text": "Vue.js", "weight": 4},
         {"text": "VMWare", "weight": 4},
-        {"text": "Webpack", "weight": 3},
+        {"text": "Webpack", "weight": 5},
         {"text": "XML", "weight": 1},
         {"text": "YUI2", "weight": 3}
 ]
