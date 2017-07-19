@@ -4,7 +4,7 @@
   "author": "JO",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot",
+    "dev": "webpack-dev-server --inline --hot --open",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "unused_dependencies": {
@@ -25,10 +25,10 @@
     "jquery": "^2.2.4",
     "json-loader": "^0.5.4",
     "resolve-url-loader": "^1.4.3",
-    "vue": "^1.0.0",
+    "sass-loader": "^3.2.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.1.0",
-    "sass-loader": "^3.2.0"
+    "vue": "^1.0.0"
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
