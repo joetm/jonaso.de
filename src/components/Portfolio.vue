@@ -10,20 +10,20 @@
     <div class="row">
 
 		<div v-for="item in portfolioItems" class="col-md-4 col-sm-6 portfolio-item wow flipInY">
-			<a v-if="item.id" href="#{{ item.id }}" class="portfolio-link" data-toggle="modal" style="background-color:#E0E0E0">
+			<a v-if="item.id" v-bind:href="'#'+item.id" class="portfolio-link" data-toggle="modal" style="background-color:#E0E0E0">
 				<div class="portfolio-hover">
 					<div class="portfolio-hover-content">
 						<i class="fa fa-plus fa-3x"></i>
 					</div>
 				</div>
-				<img data-original="{{ item.img }}" src="/static/img/clear.gif" class="lazy img-responsive" alt="">
+				<img v-bind:data-original="item.img" src="/static/img/clear.gif" class="lazy img-responsive" alt="">
 			</a>
 			<div v-else class="portfolio-link" style="background-color:#E0E0E0">
-				<img data-original="{{ item.img }}" src="/static/img/clear.gif" class="lazy img-responsive" alt="">
+				<img v-bind:data-original="item.img" src="/static/img/clear.gif" class="lazy img-responsive" alt="">
 			</div>
 			<div class="portfolio-caption">
 				<h4>{{ item.title }}</h4>
-				<p class="text-muted">{{{ item.subtitle }}}</p>
+				<p class="text-muted" v-html="item.subtitle"></p>
 			</div>
 		</div>
 
@@ -34,10 +34,9 @@
 	</div>
 
   </div><!--container-->
-  </section>
 
 
-	<!-- MODALS -->
+    <!-- MODALS -->
      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -52,36 +51,36 @@
                         <div class="modal-body">
                             <h2>Skills Planner</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/img/projects/skillsplanner_full.png" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="" style="background-image:url(/static/img/projects/thumbnail-bg-100.jpg);background-repeat:no-repeat;background-size:cover">
+                            <img data-original="/static/img/projects/skillsplanner_full.png" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="" style="background-image:url(/static/img/projects/thumbnail-bg-100.jpg);background-repeat:no-repeat;background-size:cover">
                             <p>
-                            	Linked Data Platform with aim of alleviating the skills shortage in the UK's construction industry.
-                            	The &#163;1.3 million project is partly funded by Innovate UK.
-                            	I am responsible for the development and implementation of the backend infrastructure.
-                            	The platform consists of a number of tools, written in Python, that interface with the CKAN Open Data store.
+                                Linked Data Platform with aim of alleviating the skills shortage in the UK's construction industry.
+                                The &#163;1.3 million project is partly funded by Innovate UK.
+                                I am responsible for the development and implementation of the backend infrastructure.
+                                The platform consists of a number of tools, written in Python, that interface with the CKAN Open Data store.
                             </p>
                             <ul class="list-inline item-details">
                                 <li>
-                                	Link:
+                                    Link:
                                     <a href="http://www.skillsplanner.net/">
-	                                    <strong>
-	                                    	skillsplanner.net
-	                                    </strong>
+                                        <strong>
+                                            skillsplanner.net
+                                        </strong>
                                     </a>
                                 </li>
                                 <li>
-                                	Date:
-									<strong>
-										Oct. 2015 - April 2016
-									</strong>
+                                    Date:
+                                    <strong>
+                                        Oct. 2015 - April 2016
+                                    </strong>
                                 </li>
-								<!--
+                                <!--
                                 <li>
-                                	Role:
-									<strong>
-										Developer / Data Scientist
-									</strong>
+                                    Role:
+                                    <strong>
+                                        Developer / Data Scientist
+                                    </strong>
                                 </li>
-								-->
+                                -->
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -91,7 +90,7 @@
         </div>
     </div>
 
-	<!--
+    <!--
      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -106,24 +105,24 @@
                         <div class="modal-body">
                             <h2>Minimalism Social Network v1</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/img/projects/minimalism-v1-full.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="/static/img/projects/minimalism-v1-full.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>
-                            	First prototype of the Minimalist Social Network implemented with PHP and jQuery.
+                                First prototype of the Minimalist Social Network implemented with PHP and jQuery.
                             </p>
                             <ul class="list-inline item-details">
                                 <li>
-                                	Link:
+                                    Link:
                                     <a href="http://komasurfer.com/portfolio/projects/minimalism/prototype-v1/things">
-	                                    <strong>
-	                                    	Web Demonstration
-	                                    </strong>
+                                        <strong>
+                                            Web Demonstration
+                                        </strong>
                                     </a>
                                 </li>
                                 <li>
-                                	Date:
-									<strong>
-										Apr. - May 2013
-									</strong>
+                                    Date:
+                                    <strong>
+                                        Apr. - May 2013
+                                    </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -149,31 +148,31 @@
                         <div class="modal-body">
                             <h2>Minimalist Social Network v2</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/img/projects/minimalism-v2.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="/static/img/projects/minimalism-v2.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>
-								A second prototype of the social network for minimalists, implemented as a single page javascript application with AngularJS.
+                                A second prototype of the social network for minimalists, implemented as a single page javascript application with AngularJS.
                             </p>
                             <ul class="list-inline item-details">
                                 <li>Link:
                                     <a href="http://komasurfer.com/portfolio/projects/minimalism/prototype-v2/">
-	                                    <strong>
-	                                    	Web Demonstration
-	                                    </strong>
+                                        <strong>
+                                            Web Demonstration
+                                        </strong>
                                     </a>
                                 </li>
                                 <li>
-                                	Date:
-									<strong>
-										Oct. - Dec. 2014
-									</strong>
+                                    Date:
+                                    <strong>
+                                        Oct. - Dec. 2014
+                                    </strong>
                                 </li>
-								<!--
+                                <!--
                                 <li>
-									<strong>
-										MSc Computer Science student
-									</strong>
+                                    <strong>
+                                        MSc Computer Science student
+                                    </strong>
                                 </li>
-								-->
+                                -->
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -197,7 +196,7 @@
                         <div class="modal-body">
                             <h2>Drive Now Visualization</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/img/projects/drivenow.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="/static/img/projects/drivenow.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>Under the working title "Who called the clean-up crew", I created a visualisation of DriveNow cars in Berlin. The data was scraped from DriveNow. The visualisation shows 1) the location of the cars at a certain time, 2) the car cleanliness states, 3) the movements of single cars during the recorded timeframe, and 4) the movements of cars during which a clean-up event occurred.</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
@@ -231,34 +230,34 @@
                         <div class="modal-body">
                             <h2>Alstom IT Service Catalogue</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/img/projects/sc.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="/static/img/projects/sc.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>
-                            	I was responsible for implementing the IT service catalogue in Excel.
-                            	I maintained and updated the service catalogue through four releases.
-                            	The service catalogue was used as input for the IT end-user portal. I was a beta tester for this portal.
-                            	My responsibilities also included drafting communications to the 90,000 employees and translating all IT service-related communications into German.
+                                I was responsible for implementing the IT service catalogue in Excel.
+                                I maintained and updated the service catalogue through four releases.
+                                The service catalogue was used as input for the IT end-user portal. I was a beta tester for this portal.
+                                My responsibilities also included drafting communications to the 90,000 employees and translating all IT service-related communications into German.
                             </p>
                             <ul class="list-inline item-details">
                                 <li>Position:
-									<strong>
-                                    	IT Business Analyst
-									</strong>
+                                    <strong>
+                                        IT Business Analyst
+                                    </strong>
                                 </li>
                                 <li>
-                                	Company:
+                                    Company:
                                     <a href="http://www.alstom.com/" target="_blank">
-                                    	<strong>
-                                    		Alstom IS&amp;T
-                                    	</strong>
+                                        <strong>
+                                            Alstom IS&amp;T
+                                        </strong>
                                     </a>
                                 </li>
-								<!--
+                                <!--
                                 <li>Role:
-									<strong>
-										Assistant to the Service Catalogue Manager
-									</strong>
+                                    <strong>
+                                        Assistant to the Service Catalogue Manager
+                                    </strong>
                                 </li>
-								-->
+                                -->
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -282,26 +281,26 @@
                         <div class="modal-body">
                             <h2>Service Request Design</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/img/projects/srd.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="/static/img/projects/srd.jpg" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>
-                            	I interviewed the service owners, elicitating their requirements for new services, and transformed these requirements into a service definition and a service request definition.
+                                I interviewed the service owners, elicitating their requirements for new services, and transformed these requirements into a service definition and a service request definition.
                             </p>
                             <ul class="list-inline item-details">
                                 <li>Company:
                                     <a href="http://www.alstom.com/" target="_blank">
-                                    	<strong>
-                                    		Alstom IS&amp;T
-                                    	</strong>
+                                        <strong>
+                                            Alstom IS&amp;T
+                                        </strong>
                                     </a>
                                 </li>
                                 <li>Date:
                                     <strong>
-                                    	Aug 2013 - July 2014
+                                        Aug 2013 - July 2014
                                     </strong>
                                 </li>
                                 <li>Role:
                                     <strong>
-                                    	Service Designer
+                                        Service Designer
                                     </strong>
                                 </li>
                             </ul>
@@ -327,7 +326,7 @@
                         <div class="modal-body">
                             <h2>Ontology</h2>
                             <hr class="star-primary">
-		                    <img data-original="/static/res/dreams.png" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="/static/res/dreams.png" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in v. Cu eum dicam feugiat noluisse.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
@@ -351,6 +350,8 @@
         </div>
     </div>
 
+
+  </section>
 </template>
 
 <script>

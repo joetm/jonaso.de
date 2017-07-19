@@ -5,7 +5,7 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <p class="large text-muted">Picture credits</p>
 				<p class="text-muted" v-for="d in disclaimers">
-					<a href="{{d.url}}" target="blank" class="normtext">{{d.txt}}</a>. {{d.license}}.</p>
+					<a v-bind:href="d.url" target="blank" class="normtext">{{d.txt}}</a>. {{d.license}}.</p>
 				</p>
                 <p class="text-muted">All others - &copy; jonaso.de</p>
             </div>

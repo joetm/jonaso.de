@@ -1,7 +1,6 @@
 <template>
   <!-- Header -->
-  <div id="top"></div>
-  <header>
+  <header id="top">
     <div class="container">
         <div class="intro-text" style="padding-top:280px;">
             <h1>Horrido!</h1>

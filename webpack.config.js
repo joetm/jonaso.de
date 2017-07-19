@@ -26,7 +26,8 @@ module.exports = {
     },
     resolve: {
         alias: {
-            bootstrap: vendorPath + '/bootstrap.min.js'
+            bootstrap: vendorPath + '/bootstrap.min.js',
+		    vue: 'vue/dist/vue.js'
         }
     },
     module: {

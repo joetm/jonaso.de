@@ -1,6 +1,5 @@
 <template>
-  <div id="skills"></div>
-  <section id="services-section">
+  <section id="skills">
 	  <div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -15,9 +14,7 @@
 					<i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i>
 				</span>
 				<h4 class="service-heading">{{ skill.title }}</h4>
-				<p class="text-muted k_descr">
-					{{{ skill.description }}}
-				</p>
+				<p class="text-muted k_descr" v-html="skill.description"></p>
 			</div>
 		</div>
 	  </div>

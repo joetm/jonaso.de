@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
 			<div v-for="badge in badges" class="col-xs-12 col-sm-4 col-md-offset-1 col-md-2">
-				<img data-original="{{ badge.img }}" title="{{ badge.title }}" :src="'/static/img/clear.gif'" class="lazy img-responsive img-centered" alt="">
+				<img v-bind:data-original="badge.img" v-bind:title="badge.title" :src="'/static/img/clear.gif'" class="lazy img-responsive img-centered" alt="">
 			</div>
         </div>
     </div>
