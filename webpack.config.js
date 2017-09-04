@@ -123,9 +123,23 @@ if (process.env.NODE_ENV === 'production') {
       }
     }),
     new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
+        mangle: true,
+        minimize: true,
+        sourceMap: false,
+        output: {
+          comments: false
+        },
+        compress: {
+          sequences: true,
+          dead_code: true,
+          conditionals: true,
+          booleans: true,
+          unused: true,
+          if_return: true,
+          join_vars: true,
+          drop_console: true,
+          warnings: false
+        }
     }),
     new webpack.optimize.OccurenceOrderPlugin()
 

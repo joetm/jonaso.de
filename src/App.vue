@@ -9,13 +9,16 @@
 	<app-map></app-map>
 	<app-causes></app-causes>
 	<app-badges></app-badges>
-	<app-contact></app-contact>
 	<app-disclaimer></app-disclaimer>
 	<app-footer></app-footer>
   </div>
 </template>
 
 <script>
+/*
+    <app-contact></app-contact>
+*/
+
 require('imports?$=jquery!./js/vendor/agency.js');
 require('imports?$=jquery!./js/vendor/jquery.easing.min.js');
 require('imports?$=jquery!./js/vendor/jquery.lazyload.min.js');
@@ -31,7 +34,7 @@ import MiniCV from './components/MiniCV.vue';
 import Map from './components/Map.vue';
 import Causes from './components/Causes.vue';
 import Badges from './components/Badges.vue';
-import ContactForm from './components/ContactForm.vue';
+// import ContactForm from './components/ContactForm.vue';
 import Disclaimer from './components/Disclaimer.vue';
 import Footer from './components/Footer.vue';
 
@@ -75,7 +78,7 @@ export default {
     'app-map': Map,
     'app-causes': Causes,
     'app-badges': Badges,
-    'app-contact': ContactForm,
+//    'app-contact': ContactForm,
     'app-disclaimer': Disclaimer,
     'app-footer': Footer
   }
@@ -88,9 +91,9 @@ export default {
 @import './css/font-awesome.min.css';
 @import './css/animate.css';
 
-body{overflow-x:hidden;}
+body{overflow-x: hidden;}
 
-.blk{color:#000000;}
-.normtext{color:#777;}
+.blk{color: #000000;}
+.normtext{color: #777;}
 
 </style>

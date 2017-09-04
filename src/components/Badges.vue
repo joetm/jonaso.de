@@ -46,6 +46,7 @@ export default {
 <style>
 aside.badges{
 	padding:4em 0;
+    background-color: #EEEEEE;
 }
 aside.badges img{
 	opacity:0.4;

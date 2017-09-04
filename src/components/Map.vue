@@ -160,6 +160,11 @@ export default {
 #map{
 	padding-bottom:0;
 	margin-bottom:0;
+  background-color: #222;
+  background-image: url(/static/img/map-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
 }
 #map .container{
 	width:100%;
@@ -169,7 +174,13 @@ export default {
 #map .container #location-map{
 	width:100%;
 	height:450px;
+  max-width: 80%;
+  margin: 0 auto;
 	/* pointer-events:none; */
+}
+
+#map h2, #map h3 {
+  color: #FFFFFF;
 }
 </style>
 
