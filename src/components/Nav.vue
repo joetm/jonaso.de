@@ -10,8 +10,9 @@
       -->
       <h2 class="md-title" style="flex: 1">jonaso</h2>
       <md-button href="#skills">Skills</md-button>
-      <md-button href="#portfolio">Portfolio</md-button>
       <md-button href="#cv">Mini-CV</md-button>
+      <md-button href="#academic">Academic CV</md-button>
+      <md-button href="#portfolio">WebDev</md-button>
       <md-button href="#contact">Contact</md-button>
     </md-toolbar>
 

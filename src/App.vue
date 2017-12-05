@@ -4,8 +4,9 @@
 	<app-intro></app-intro>
 	<app-skills></app-skills>
 	<app-tagcloud></app-tagcloud>
-	<app-portfolio></app-portfolio>
-	<app-minicv></app-minicv>
+    <app-minicv></app-minicv>
+	<app-academic></app-academic>
+    <app-portfolio></app-portfolio>
 	<app-map></app-map>
 	<app-causes></app-causes>
 	<app-badges></app-badges>
@@ -31,6 +32,7 @@ import Skills from './components/Skills.vue';
 import TagCloud from './components/TagCloud.vue';
 import Portfolio from './components/Portfolio.vue';
 import MiniCV from './components/MiniCV.vue';
+import Academic from './components/Academic.vue';
 import Map from './components/Map.vue';
 import Causes from './components/Causes.vue';
 import Badges from './components/Badges.vue';
@@ -73,8 +75,9 @@ export default {
     'app-intro': Intro,
     'app-skills': Skills,
     'app-tagcloud': TagCloud,
-    'app-portfolio': Portfolio,
     'app-minicv': MiniCV,
+    'app-academic': Academic,
+    'app-portfolio': Portfolio,
     'app-map': Map,
     'app-causes': Causes,
     'app-badges': Badges,

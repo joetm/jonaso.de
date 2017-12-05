@@ -81,7 +81,7 @@
         "dates": "2016",
         "title": "Full-Stack Developer",
         "organisation": "Liip AG",
-        "description": "Worked on Open Data and CKAN projects for Swiss Federal Railways and Eurapco Alliance in <a href='http://www.bern.com/' target='_blank' >Bern</a>.",
+        "description": "Worked in an agile company on Open Data and CKAN projects for Swiss Federal Railways and Eurapco Alliance in <a href='http://www.bern.com/' target='_blank' >Bern</a>.",
         "img": "/static/img/ch-bern.jpg"
     },
     {
@@ -89,7 +89,7 @@
         "dates": "2016 - today",
         "title": "Researcher",
         "organisation": "Freie Universit&auml;t Berlin",
-        "description": "",
+        "description": "Early-stage researcher at the Human-Centered Computing group. Of particular interest to me are the application of crowdsourcing to solve problems in the context of the semantic web and tackling the broader problem of providing better working conditions and fair compensation to crowdworkers.",
         "img": "/static/img/berlin.jpg"
     }
 ]

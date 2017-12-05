@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center">
-            <h2 class="wow flipInX">Portfolio</h2>
+            <h2 class="wow flipInX">Web Development Portfolio</h2>
 			<h3>Coma-surf to my portfolio.</h3>
         </div>
     </div>
@@ -30,7 +30,7 @@
 	</div><!--row-->
 
     <div class="row text-center">
-		<a class="btn btn-xl" id="komasurfer-link" href="#">More...</a>
+		<a class="btn btn-xl" id="komasurfer-link" href="http://komasurfer.com/portfolio/">Full Portfolio</a>
 	</div>
 
   </div><!--container-->
