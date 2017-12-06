@@ -3,6 +3,9 @@
 <div id="nav">
 
     <md-toolbar class="md-warn">
+        <div>
+            <img class="avatar" src="/static/img/avatar.jpg" alt="" />
+        </div>
       <!--
       <md-button class="md-icon-button">
         <md-icon>menu</md-icon>
@@ -46,12 +49,10 @@
 </template>
 
 <script>
-var animateHeader = require('imports?$=jquery!../js/vendor/cbpAnimatedHeader.js');
+const animateHeader = require('imports?$=jquery!../js/vendor/cbpAnimatedHeader.js');
 
 $(function () {
-
 	animateHeader();
-
 });
 
 export default {
@@ -61,6 +62,26 @@ export default {
 <style>
 .navbar{
 	opacity:0.9;
+}
+.md-title{
+    padding-left: 85px;
+}
+#nav img.avatar{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #666666;
+    border-radius: 25px;
+    margin:0 15px 0 10px;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+#nav img.avatar:hover{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #666666;
+    border-radius: 50px;
+    margin:0 15px 0 10px;
 }
 </style>
 
