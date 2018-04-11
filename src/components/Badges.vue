@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
 			<div v-for="badge in badges" class="col-xs-12 col-sm-4 col-md-offset-1 col-md-2">
-				<img v-bind:data-original="badge.img" v-bind:title="badge.title" :src="'/static/img/clear.gif'" class="lazy img-responsive img-centered" alt="">
+				<img v-bind:data-original="badge.img" v-bind:title="badge.title" :src="'./static/img/clear.gif'" class="lazy img-responsive img-centered" alt="">
 			</div>
         </div>
     </div>
@@ -14,23 +14,23 @@
 var badges = [
 	{
 		title: 'SAP-certified Associate in Project Management',
-		img: '/static/img/badges/sap-capm.jpg'
+		img: './static/img/badges/sap-capm.jpg'
 	},
 	{
 		title: 'DAkkS-certified Quality Management Representative',
-		img: '/static/img/badges/dakks.jpg'
+		img: './static/img/badges/dakks.jpg'
 	},
 	{
 		title: 'Certified ScrumMaster',
-		img: '/static/img/badges/scrum.jpg'
+		img: './static/img/badges/scrum.jpg'
 	},
 	{
 		title: 'ITIL V3 Foundation',
-		img: '/static/img/badges/itil-v3-foundation.gif'
+		img: './static/img/badges/itil-v3-foundation.gif'
 	},
 	{
 		title: 'Zend-certified Engineer',
-		img: '/static/img/badges/zend.jpg'
+		img: './static/img/badges/zend.jpg'
 	}
 ];
 

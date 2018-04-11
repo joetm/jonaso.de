@@ -44,6 +44,7 @@ import Footer from './components/Footer.vue';
 $(function () {
 
 	$('#komasurfer-link').attr('href', 'http://koma' + 'surfer.' + 'com/' + 'portfolio/');
+    $('#academic-link').attr('href', 'http://www.' + 'jonaso.' + 'de/');
 
     //lazyload
     $("img.lazy").lazyload({

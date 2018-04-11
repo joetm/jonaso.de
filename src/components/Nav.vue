@@ -4,7 +4,7 @@
 
     <md-toolbar class="md-warn">
         <div>
-            <img class="avatar" src="/static/img/avatar.jpg" alt="" />
+            <img class="avatar" src="./static/img/avatar.jpg" alt="" />
         </div>
       <!--
       <md-button class="md-icon-button">
@@ -16,7 +16,6 @@
       <md-button href="#cv">Mini-CV</md-button>
       <md-button href="#academic">Academic CV</md-button>
       <md-button href="#portfolio">WebDev</md-button>
-      <md-button href="#contact">Contact</md-button>
     </md-toolbar>
 
     <!--
@@ -39,7 +38,6 @@
     				<li><a class="page-scroll" href="#skills">Skills</a></li>
     				<li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
     				<li><a class="page-scroll" href="#cv">Mini-CV</a></li>
-    				<li><a class="page-scroll" href="#contact">Contact</a></li>
     			</ul>
     		</div>
     	</div>
@@ -76,6 +74,7 @@ export default {
     top: 5px;
     left: 15px;
 }
+/*
 #nav img.avatar:hover{
     width: 100px;
     height: 100px;
@@ -83,5 +82,6 @@ export default {
     border-radius: 50px;
     margin:0 15px 0 10px;
 }
+*/
 </style>
 

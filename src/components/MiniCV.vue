@@ -12,14 +12,16 @@
             <ul class="timeline">
 				<li v-for="item in items" v-bind:class="item.li_class">
 					<div class="timeline-image">
-						<!--v-bind:data-original="item.img" src="/static/img/clear.gif"-->
+						<!--v-bind:data-original="item.img" src="./static/img/clear.gif"-->
 						<img v-bind:src="item.img" class="lazy img-circle img-responsive" alt="">
 					</div>
 					<div class="timeline-panel">
 						<div class="timeline-heading">
 							<h4>{{item.dates}}</h4>
 							<h4 class="subheading">{{item.title}}</h4>
-							<div class="organisation" v-html="item.organisation"></div>
+							<div class="organisation">
+                                <a href="#" class="orglink" v-html="item.organisation"></a>
+                            </div>
 						</div>
 						<div v-bind:class="'timeline-body wow ' + item.timeline_body_alternation">
 							<p class="text-muted" v-html="item.description"></p>

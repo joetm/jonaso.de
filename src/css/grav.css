@@ -859,6 +859,9 @@ a {
   color: #fed136;
   text-decoration: none; }
 
+a.orglink{color:#444;text-decoration:underline;}
+a.orglink:hover, a.orglink:focus{color:#fe3636;}
+
 a:hover, a:focus {
   color: #fed136;
   text-decoration: underline; }
