@@ -161,7 +161,7 @@ export default {
 	padding-bottom:0;
 	margin-bottom:0;
   background-color: #222;
-  background-image: url(/static/img/map-image.png);
+  background-image: url(http://www.jonaso.de/portfolio/static/img/map-image.png);
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 150px;

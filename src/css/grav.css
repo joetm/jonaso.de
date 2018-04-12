@@ -5512,7 +5512,7 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(/static/img/header-bg.jpg);
+  background-image: url(http://www.jonaso.de/portfolio/static/img/header-bg.jpg);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
@@ -5831,7 +5831,7 @@ aside.clients img {
 
 section#contact {
   background-color: #222;
-  background-image: url(/static/img/map-image.png);
+  background-image: url(http://www.jonaso.de/portfolio/static/img/map-image.png);
   background-position: center;
   background-repeat: no-repeat; }
 
