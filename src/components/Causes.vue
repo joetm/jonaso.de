@@ -10,7 +10,7 @@
         <div class="row">
             <div v-for="cause in causes" class="col-sm-4">
                 <div class="team-member wow zoomIn">
-                    <img v-bind:data-original="cause.img" src="./static/img/clear.gif" class="lazy img-responsive img-circle custom-img" alt="">
+                    <img v-bind:data-original="cause.img" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-circle custom-img" alt="">
                     <h4>{{ cause.title }}</h4>
                     <p class="text-muted">{{ cause.subtitle }}</p>
                 </div>

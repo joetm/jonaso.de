@@ -4,7 +4,7 @@
 
     <md-toolbar class="md-warn">
         <div>
-            <img class="avatar" src="./static/img/avatar.jpg" alt="" />
+            <img class="avatar" src="http://www.jonaso.de/portfolio/static/img/avatar.jpg" alt="" />
         </div>
       <!--
       <md-button class="md-icon-button">

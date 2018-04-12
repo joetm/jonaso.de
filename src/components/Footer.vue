@@ -13,7 +13,7 @@
                 </ul>
             </div>
             <div class="col-md-4">
-					<img data-original="/static/img/no-facebook.gif" src="./static/img/clear.gif" class="lazy img-responsive img-centered" alt="" style="max-height:40px;width:auto;">
+					<img data-original="./static/img/no-facebook.gif" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-centered" alt="" style="max-height:40px;width:auto;">
             </div>
         </div>
     </div>

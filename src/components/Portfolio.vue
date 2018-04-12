@@ -16,10 +16,10 @@
 						<i class="fa fa-plus fa-3x"></i>
 					</div>
 				</div>
-				<img v-bind:data-original="item.img" src="./static/img/clear.gif" class="lazy img-responsive" alt="">
+				<img v-bind:data-original="item.img" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive" alt="">
 			</a>
 			<div v-else class="portfolio-link" style="background-color:#E0E0E0">
-				<img v-bind:data-original="item.img" src="./static/img/clear.gif" class="lazy img-responsive" alt="">
+				<img v-bind:data-original="item.img" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive" alt="">
 			</div>
 			<div class="portfolio-caption">
 				<h4>{{ item.title }}</h4>
@@ -51,7 +51,7 @@
                         <div class="modal-body">
                             <h2>Skills Planner</h2>
                             <hr class="star-primary">
-                            <img data-original="./static/img/projects/skillsplanner_full.png" src="/static/img/clear.gif" class="lazy img-responsive img-centered" alt="" style="background-image:url(./static/img/projects/thumbnail-bg-100.jpg);background-repeat:no-repeat;background-size:cover">
+                            <img data-original="./static/img/projects/skillsplanner_full.png" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-centered" alt="" style="background-image:url(http://www.jonaso.de/portfolio/static/img/projects/thumbnail-bg-100.jpg);background-repeat:no-repeat;background-size:cover">
                             <p>
                                 Linked Data Platform with aim of alleviating the skills shortage in the UK's construction industry.
                                 The &#163;1.3 million project is partly funded by Innovate UK.
@@ -105,7 +105,7 @@
                         <div class="modal-body">
                             <h2>Minimalism Social Network v1</h2>
                             <hr class="star-primary">
-                            <img data-original="./static/img/projects/minimalism-v1-full.jpg" src="./static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="./static/img/projects/minimalism-v1-full.jpg" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>
                                 First prototype of the Minimalist Social Network implemented with PHP and jQuery.
                             </p>
@@ -148,7 +148,7 @@
                         <div class="modal-body">
                             <h2>Minimalist Social Network v2</h2>
                             <hr class="star-primary">
-                            <img data-original="./static/img/projects/minimalism-v2.jpg" src="./static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="./static/img/projects/minimalism-v2.jpg" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>
                                 A second prototype of the social network for minimalists, implemented as a single page javascript application with AngularJS.
                             </p>
@@ -196,7 +196,7 @@
                         <div class="modal-body">
                             <h2>Drive Now Visualization</h2>
                             <hr class="star-primary">
-                            <img data-original="./static/img/projects/drivenow.jpg" src="./static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="./static/img/projects/drivenow.jpg" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>Under the working title "Who called the clean-up crew", I created a visualisation of DriveNow cars in Berlin. The data was scraped from DriveNow. The visualisation shows 1) the location of the cars at a certain time, 2) the car cleanliness states, 3) the movements of single cars during the recorded timeframe, and 4) the movements of cars during which a clean-up event occurred.</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
@@ -230,7 +230,7 @@
                         <div class="modal-body">
                             <h2>Alstom IT Service Catalogue</h2>
                             <hr class="star-primary">
-                            <img data-original="./static/img/projects/sc.jpg" src="./static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="./static/img/projects/sc.jpg" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>
                                 I was responsible for implementing the IT service catalogue in Excel.
                                 I maintained and updated the service catalogue through four releases.
@@ -281,7 +281,7 @@
                         <div class="modal-body">
                             <h2>Service Request Design</h2>
                             <hr class="star-primary">
-                            <img data-original="./static/img/projects/srd.jpg" src="./static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="./static/img/projects/srd.jpg" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>
                                 I interviewed the service owners, elicitating their requirements for new services, and transformed these requirements into a service definition and a service request definition.
                             </p>
@@ -326,7 +326,7 @@
                         <div class="modal-body">
                             <h2>Ontology</h2>
                             <hr class="star-primary">
-                            <img data-original="./static/res/dreams.png" src="./static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
+                            <img data-original="./static/res/dreams.png" src="http://www.jonaso.de/portfolio/static/img/clear.gif" class="lazy img-responsive img-centered" alt="">
                             <p>Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in v. Cu eum dicam feugiat noluisse.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:

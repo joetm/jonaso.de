@@ -39,6 +39,7 @@
 let academicdata = [];
 
 //get security token
+/*
 $.ajax({
     dataType: 'text',
     method: "GET",
@@ -46,6 +47,7 @@ $.ajax({
 }).done(function (data) {
     academicdata = data;
 });
+*/
 
 export default {
   data () {
